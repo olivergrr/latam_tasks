@@ -10,8 +10,8 @@ por cada uno de esos días. Debe incluir las siguientes funciones:
   - def q1_memory(file_path: str) -> List[Tuple[datetime.date, str]]:
 
 2. Los top 10 emojis más usados con su respectivo conteo. Debe incluir las siguientes funciones:
-   - def q2_time(file_path: str) -> List[Tuple[str, int]]:
-   - def q2_memory(file_path: str) -> List[Tuple[str, int]]:
+- def q2_time(file_path: str) -> List[Tuple[str, int]]:
+- def q2_memory(file_path: str) -> List[Tuple[str, int]]:
 
 3. El top 10 histórico de usuarios (username) más influyentes en función del conteo de las menciones (@)
 que registra cada uno de ellos. Debe incluir las siguientes funciones:
