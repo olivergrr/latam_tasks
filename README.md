@@ -21,6 +21,8 @@ que registra cada uno de ellos. Debe incluir las siguientes funciones:
 ## Cómo ejecutar el código
 
 Se utilza docker para crear un contenedor donde se pueda correr spark y pyspark en una Jupiter notebook.
+
 Dentro del repositorio correr el siguiente comando `docker run --name pyspark -p 8888:8888 -v ./.:/home/jovyan/work jupyter/pyspark-notebook`
 en la carpeta del repositorio se debe guardar el archivo json con el nombre `farmers-protest-tweets-2021-2-4.json` que se desea procesar
+
 Se podrá acceder al notebook en la siguiente url `http://127.0.0.1:8888/`, dentro de la carpeta work se encontrará la notebook y el archivo json
