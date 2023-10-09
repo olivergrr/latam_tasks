@@ -21,7 +21,8 @@ que registra cada uno de ellos. Debe incluir las siguientes funciones:
 ## Cómo ejecutar el código
 
 Se utilza docker para crear un contenedor donde se pueda correr spark y pyspark en una Jupiter notebook. Para esto se debe descargar docker desde la página oficial del proyecto `https://hub.docker.com/`
-La versión utilizada es la siguiente que es la latest. 
+La versión utilizada es la siguiente que es la latest.
+
 Nombre: jupyter/pyspark-notebook ID 4ce947f3e743
 Contiene Python 3.11, ubuntu 22.04, spark 3.5 y jupyterlab 4.0.4
 
